@@ -1,0 +1,6 @@
+<h1>
+  content-slot works {{ id }}
+</h1>
+<ng-template
+  *ngFor="let component of components" appCmsComponentWrapper
+  [component]="component"></ng-template>
